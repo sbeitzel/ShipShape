@@ -1,0 +1,9 @@
+// The bundle ID for the ShipShape application built by *you*
+PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.ShipShape
+
+// Development Team
+//
+// The team ID of a development team to use for signing certificates and provisioning
+// profiles.
+
+DEVELOPMENT_TEAM =
