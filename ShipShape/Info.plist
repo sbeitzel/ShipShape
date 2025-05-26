@@ -5,6 +5,6 @@
 	<key>CFBundleHelpBookFolder</key>
 	<string>ShipShape_(main).help</string>
 	<key>CFBundleHelpBookName</key>
-	<string>com.hackingwithswift.ShipShape.help</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER).help</string>
 </dict>
 </plist>
