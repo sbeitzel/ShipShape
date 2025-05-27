@@ -23,7 +23,7 @@ file.each_line do |line|
   parts = line.split('=')
   if parts.size >= 2 && parts[0].strip == ":CFBundleID"
     # do the substitution
-    updated = parts[0] + '=> ' + helpbook_bundle + ",\n"
+    updated = parts[0] + "=> '" + helpbook_bundle + "',\n"
     lines.push(updated)
   else
     lines.push(line)
