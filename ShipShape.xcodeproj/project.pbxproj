@@ -37,7 +37,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7CCAC0E32DE4D0BB00BD5DAE /* Exceptions for "ShipShape" folder in "ShipShape" target */ = {
+		150395C22DE4E40A00D5D002 /* Exceptions for "ShipShape" folder in "ShipShape" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -50,7 +50,7 @@
 		51616E702DD8EDE8007B8250 /* ShipShape */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7CCAC0E32DE4D0BB00BD5DAE /* Exceptions for "ShipShape" folder in "ShipShape" target */,
+				150395C22DE4E40A00D5D002 /* Exceptions for "ShipShape" folder in "ShipShape" target */,
 			);
 			path = ShipShape;
 			sourceTree = "<group>";
