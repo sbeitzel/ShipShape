@@ -156,6 +156,7 @@ GEM
     padrino-support (0.15.3)
     parallel (1.27.0)
     parslet (2.0.0)
+    plist (3.7.2)
     psych (5.2.6)
       date
       stringio
@@ -222,6 +223,7 @@ DEPENDENCIES
   middleman-targets (~> 1.0.12)
   mutex_m
   ostruct
+  plist
   rack (>= 1.4.5)
   rdoc
   tzinfo-data

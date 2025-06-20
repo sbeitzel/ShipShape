@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en-us</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.hackingwithswift.ShipShape.help</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ShipShape</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>hbwr</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>HPDBookAccessPath</key>
+	<string>index_hpd.html</string>
+	<key>HPDBookCSIndexPath</key>
+	<string>ShipShape.cshelpindex</string>
+	<key>HPDBookIconPath</key>
+	<string>SharedGlobalAssets/convention/icon_32x32@2x.png</string>
+	<key>HPDBookIndexPath</key>
+	<string>ShipShape.helpindex</string>
+	<key>HPDBookKBProduct</key>
+	<string/>
+	<key>HPDBookKBURL</key>
+	<string>https://github.com/twostraws/ShipShape</string>
+	<key>HPDBookRemoteURL</key>
+	<string>dummy_enables_share</string>
+	<key>HPDBookTitle</key>
+	<string>ShipShape Help</string>
+	<key>HPDBookTopicListCSSPath</key>
+	<string/>
+	<key>HPDBookTopicListTemplatePath</key>
+	<string/>
+	<key>HPDBookType</key>
+	<string>3</string>
+</dict>
+</plist>

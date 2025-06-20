@@ -13,6 +13,12 @@
 
 source 'https://rubygems.org'
 
+#######################################
+# Support for reconfiguring the helpbook
+# with many different contributors.
+#######################################
+gem 'plist'
+
 
 #######################################
 # Middlemac, natch.

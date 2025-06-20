@@ -75,6 +75,10 @@ clean: check_prerequisites
 	@echo "Cleaning $(BUILD_DIR)…"
 	@rm -rf "$(BUILD_DIR)"
 
+.PHONY: update
+update:
+	gem install plist
+	ruby rewrite_help_plist.rb
 
 #====================================================================
 # Ensure that we have everything that we need to proceed with doing

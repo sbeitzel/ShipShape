@@ -1,0 +1,58 @@
+{
+    "birdseed_version": 5,
+    "build_id": "1.0.0",
+    "build_date": "2025.06.20-09:09:15",
+    "collect_feedback": false,
+    "copyright": "topic-en.lproj-copyright",
+    "copyright_text": "© 2025 Paul Hudson. All rights reserved.",
+    "css": "",
+    "enable_tracking": false,
+    "framework": "middlemac-3.1.2",
+    "icon": "",
+    "landing": "topic-Resources-en.lproj",
+    "locale": "en",
+    "platform": "mac",
+    "printable_page": "",
+    "product": "ShipShape",
+    "quick_links": [],
+    "sections": {
+    },
+    "show_previous_next": false,
+    "source_schema": "apd-schema",
+    "title": "ShipShape Help",
+    "toc": [
+        "topic-en.lproj-app_store_api_key"
+    ],
+    "topics": {
+        "topic-Resources-en.lproj": {
+            "name": "ShipShape",
+            "href": "index.html",
+            "categories": [
+              "landing"
+            ]
+        },
+        "topic-en.lproj-app_store_api_key": {
+            "name": "App Store Information",
+            "summary": "Getting data from the App Store",
+            "href": "app_store_api_key.html",
+            "categories": [
+            ]
+        },
+        "topic-en.lproj-copyright": {
+            "name": "Credits and License",
+            "summary": "License Page",
+            "href": "copyright.html",
+            "categories": [
+              "copyright"
+            ]
+        },
+        "topic-en.lproj-index_hpd": {
+            "name": "HPD redirector",
+            "href": "index_hpd.html",
+            "categories": [
+            ]
+        }
+    },
+    "urls": {},
+    "version": "1.0.0"
+}

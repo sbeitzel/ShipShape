@@ -326,7 +326,7 @@ ENABLE_STRICT_OBJC_MSGSEND = YES
 // If enabled, the build system will sandbox user scripts to disallow undeclared
 // input/output dependencies.
 
-ENABLE_USER_SCRIPT_SANDBOXING = YES
+ENABLE_USER_SCRIPT_SANDBOXING = NO
 
 
 
