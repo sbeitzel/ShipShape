@@ -35,9 +35,9 @@ for the application, but it must be unique. General practice is to use the appli
 bundle ID followed by `.help`. For example, `com.hackingwithswift.ShipShape.help`. This ID gets
 set in the `config.rb` file in the help book source directory. To tell the
 operating system that the book is associated with our application, we need to add an entry to
-`Info.plist`: `CFBundleHelpBookName`. This is the bundle ID of the help book.
+the *help book's* `Info.plist`: `CFBundleHelpBookName`. This is the bundle ID of the help book.
 
-To have Xcode bundle the help book into the application, we need to add an entry to the
+To have Xcode bundle the help book into the application, we need to add an entry to the *application's*
 `Info.plist`: `CFBundleHelpBookFolder`. This is the name of the directory where the help book
 has been packaged.
 
