@@ -136,6 +136,7 @@
 		7CDBBC432E05EA00004F2C06 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		7CDBBC442E05EA00004F2C06 /* HELPBOOK.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HELPBOOK.md; sourceTree = "<group>"; };
 		7CDBBC452E05EA00004F2C06 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CDBBC482E0724A3004F2C06 /* install_middlemac.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install_middlemac.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -408,6 +409,7 @@
 		7C3630762DFB456900ED659D /* helpbook_source */ = {
 			isa = PBXGroup;
 			children = (
+				7CDBBC482E0724A3004F2C06 /* install_middlemac.sh */,
 				7C36306C2DFB456900ED659D /* Contents */,
 				7C36306D2DFB456900ED659D /* .gitignore */,
 				7C36306E2DFB456900ED659D /* .ruby-version */,
