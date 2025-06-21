@@ -75,6 +75,10 @@ clean: check_prerequisites
 	@echo "Cleaning $(BUILD_DIR)…"
 	@rm -rf "$(BUILD_DIR)"
 
+#====================================================================
+# Update the Info.plist file with the local bundle ID. Only for
+# the case where you *aren't* doing help documentation development.
+#====================================================================
 .PHONY: update
 update:
 	gem install plist
