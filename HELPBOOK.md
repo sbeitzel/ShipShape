@@ -37,15 +37,10 @@ set in the `config.rb` file in the help book source directory. To tell the
 operating system that the book is associated with our application, we need to add an entry to
 the *help book's* `Info.plist`: `CFBundleHelpBookName`. This is the bundle ID of the help book.
 
-To have Xcode bundle the help book into the application, we need to add an entry to the *application's*
-`Info.plist`: `CFBundleHelpBookFolder`. This is the name of the directory where the help book
-has been packaged.
-
-The help book directory also needs to be added to the Xcode project as a resource. In the
-"Build Phases" tab for the application target, add a "Copy Bundle Resources" item that refers
-to the built help book folder.
-
-__TODO__ Add some screen shots here for clarity.
+In the project directory, there's a ruby script called `configure_helpbook.rb`. This will update
+`helpbook_source/config.rb` with the bundle ID you've defined in `Configuration/Local.xcconfig`,
+so that when you build the helpbook locally you'll have it all ready for your build of the application.
+To invoke it, open a Terminal window and in the project directory run `ruby configure_helpbook.rb`.
 
 ## Development
 
