@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		51616E862DD8F5FA007B8250 /* JWTKit in Frameworks */ = {isa = PBXBuildFile; productRef = 51616E852DD8F5FA007B8250 /* JWTKit */; };
+		7CDBBC472E05EE47004F2C06 /* ShipShape_(main).help in Resources */ = {isa = PBXBuildFile; fileRef = 7C3630752DFB456900ED659D /* ShipShape_(main).help */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -499,7 +500,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					51616E6D2DD8EDE8007B8250 = {
 						CreatedOnToolsVersion = 16.3;
@@ -538,6 +539,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CDBBC472E05EE47004F2C06 /* ShipShape_(main).help in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +698,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CCABEDE2DE4C77000BD5DAE /* Project-Debug.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 			};
 			name = Debug;
 		};
@@ -703,6 +707,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CCABEDF2DE4C77000BD5DAE /* Project-Release.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 			};
 			name = Release;
 		};
@@ -710,6 +716,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CCABEE12DE4C77000BD5DAE /* ShipShape-Debug.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 			};
 			name = Debug;
 		};
@@ -717,6 +727,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CCABEE22DE4C77000BD5DAE /* ShipShape-Release.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 			};
 			name = Release;
 		};
