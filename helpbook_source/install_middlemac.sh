@@ -24,6 +24,4 @@ rm -rf middlemac
 cd $(CURRENT)
 
 # now, make sure the helpbook is ready to build
-cd helpbook_source
-
 bundle install
